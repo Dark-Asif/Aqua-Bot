@@ -1,4 +1,4 @@
-##Aqua-Bot
+## `Aqua-Bot`
 
 ## `For Termux/Ssh/Ubuntu`
 ```bash
