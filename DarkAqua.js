@@ -3277,7 +3277,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-                    case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'aqua': case 'asif':{
+                    case 'Aqua': case 'test': case 'alive': case 'bot': case 'robot': case 'aqua': case 'asif':{
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
