@@ -3474,7 +3474,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-											"title": "Sex Menu",
+											"title": "sex menu",
 										"description": "Displays The List Of 18+ Features",
 										 "rowId": `${prefix}sexmenu`        
 										 },
@@ -3762,11 +3762,14 @@ case 'allmenu': {
 ┃╠${prefix}shio (indo)
 ┃╚═════════════✪
 ┃╠══════✪「 18+ Menu 」
-┃╠ ${prefix}blowjob
-┃╠ ${prefix}hard
-┃╠ ${prefix}sex
-┃╠ ${prefix}fuck
-┃╠ ${prefix}sexy
+┃┃╔══✪「SEX 18+」	        
+┃╠𝙽𝙾 𝙽𝙴𝙴𝙳 𝚃𝙾 𝚄𝚂𝙴 𝙿𝚁𝙴𝙵𝙸𝚇 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 𝚆𝙾𝚁𝙳💋
+┃╠🤤
+┃╠ blowjob
+┃╠ hard
+┃╠ cum
+┃╠ hardfucking
+┃╠ sexy 
 ┗━「 *Created By ${ownername}* 」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -4179,12 +4182,13 @@ var unicorn = await getBuffer(picak+'sexy menu')
 await DarkBotInc.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「SEX 18+」	        
-┃╠${prefix}blowjob
-┃╠${prefix}hard
-┃╠${prefix}sex
-┃╠${prefix}fuck
-┃╠${prefix}sexy
-┃╚═════════════✪
+┃╠𝙽𝙾 𝙽𝙴𝙴𝙳 𝚃𝙾 𝚄𝚂𝙴 𝙿𝚁𝙴𝙵𝙸𝚇 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 𝚆𝙾𝚁𝙳💋
+┃╠🤤
+┃╠ blowjob
+┃╠ hard
+┃╠ cum
+┃╠ hardfucking
+┃╠ sexy 
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": 
 {"displayText": "Contact🎭","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
