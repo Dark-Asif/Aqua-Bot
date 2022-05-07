@@ -147,16 +147,16 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://i.ibb.co/5kn6K9R/dbdf2f5f4a0f4b0fb694ba187fba687f.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     DarkBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
- 🧡✑ Hi👋 @${num.split("@")[0]},
- 🧡✑ Welcome To ${metadata.subject}
+ 🧡✑ 𝗛𝗜👋 @${num.split("@")[0]},
+ 🧡✑ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 ${metadata.subject}
 
  🧡✑ Description: ${metadata.desc}
 
- 🧡✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
+ 🧡✑ 𝗜𝗧'𝗦 𝗢𝗞. 𝗬𝗢𝗨 𝗝𝗨𝗦𝗧 𝗙𝗢𝗥𝗚𝗢𝗧 𝗪𝗛𝗢 𝗬𝗢𝗨 𝗔𝗥𝗘.𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗕𝗔𝗖𝗞.`} )
                 } else if (anu.action == 'remove') {
-                    DarkBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: ` 🧡✑ @${num.split("@")[0]} Left ${metadata.subject}
+                    DarkBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: ` 🧡✑ @${num.split("@")[0]} 𝙇𝙀𝙁𝙏 ${metadata.subject}
 
- 🧡✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
+ 🧡✑ 𝗬𝗢𝗨 𝗪𝗘𝗥𝗘 𝗠𝗬 𝗛𝗔𝗥𝗗𝗘𝗦𝗧 𝗚𝗢𝗢𝗗𝗕𝗬𝗘♥️` })
                 }
             }
         } catch (err) {
